@@ -1,0 +1,21 @@
+{
+  "name": "base64url-cli",
+  "version": "1.0.0",
+  "description": "Encode and decode URL-safe Base64 (RFC 4648 §5) from the command line. Zero dependencies.",
+  "main": "index.js",
+  "bin": {
+    "base64url": "index.js"
+  },
+  "scripts": {
+    "test": "node index.js encode hello && node index.js decode aGVsbG8"
+  },
+  "keywords": ["base64url", "base64", "url-safe", "encode", "decode", "rfc4648", "cli"],
+  "author": "kszongic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kszongic/base64url-cli"
+  },
+  "homepage": "https://github.com/kszongic/base64url-cli#readme",
+  "files": ["index.js", "README.md", "LICENSE"]
+}
